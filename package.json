@@ -1,0 +1,41 @@
+{
+  "name": "capacitor_plugin_base",
+  "version": "1.0.0",
+  "description": "Una base para poder crear plugins de Capacitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --watch",
+    "android": "webpack --mode production && npx cap open android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammafp/capacitor_plugin_base.git"
+  },
+  "keywords": [
+    "Plugins",
+    "Capacitor",
+    "JavaScript",
+    "Java"
+  ],
+  "author": "Francisco Pereira Alvarado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammafp/capacitor_plugin_base/issues"
+  },
+  "homepage": "https://github.com/gammafp/capacitor_plugin_base#readme",
+  "dependencies": {
+    "@capacitor/android": "^1.1.1",
+    "@capacitor/cli": "^1.1.1",
+    "@capacitor/core": "^1.1.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

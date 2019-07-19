@@ -1,0 +1,7 @@
+{
+  "appId": "creation.tool.plugin",
+  "appName": "PluginTool",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
