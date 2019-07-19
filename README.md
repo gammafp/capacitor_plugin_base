@@ -5,7 +5,7 @@ Una base web para desarrollar plugins de Capacitor
 
 0) Se instala todos los paquetes con 
 ```
-npm i
+> npm i
 ```
 
 1) Se agrega android con (el nombre del dominio es creation.tool.plugin vease en capacitor.config.json): 
@@ -17,8 +17,16 @@ npm i
 ```
 > npx @capacitor/cli plugin:generate
 ```
+3) El plugin se instalará en la raíz de este proyecto y hay que ponerlo en node_modules. Para lograr ponerlo en node_modules se tiene que crear un enlace y lo hacemos con: 
+```
+> npm i ./nombredelplugin
+```
+4) Y ahora solo toca actualizar el plugin con:
+```
+> npx cap sync
+```
 
-3) Se pueden usar distintos comandos creados para facilitar el uso de la herramienta:
+5) Se pueden usar distintos comandos creados para facilitar el uso de la herramienta:
 
 - Editar solo el HTML sin actualización: 
 ```
