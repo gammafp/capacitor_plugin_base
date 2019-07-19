@@ -3,6 +3,11 @@ Una base web para desarrollar plugins de Capacitor
 
 #### Es necesario tener node actualizado.
 
+0) Se instala todos los paquetes con 
+```
+npm i
+```
+
 1) Se agrega android con (el nombre del dominio es creation.tool.plugin vease en capacitor.config.json): 
 ```
 > npx cap add android
