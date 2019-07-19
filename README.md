@@ -42,9 +42,3 @@ Una base web para desarrollar plugins de Capacitor
 ```
 > npm run build 
 ```
----
-#### Herrores conocidos: 
-Aún no se ha podido hacer que el plugin funcione correctmente con typescript sin meterlo en node_modules.
-
----
-## Herramienta en desarrollo
