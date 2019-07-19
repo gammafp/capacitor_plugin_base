@@ -34,10 +34,15 @@ module.exports = () => {
             new HtmlWebpackPlugin({
                 template: `${routeApp}/index.html`
             }),
-            new CopyWebpackPlugin([{
+            new CopyWebpackPlugin([
+                {
                     from: `${routeApp}/manifest.json`,
                     to: 'manifest.json'
-                }
+                }, 
+                {
+                    from: `${routeApp}/assets`,
+                    to: 'assets'
+                },
             ]),
             {
                 apply: (compiler) => {
