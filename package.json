@@ -27,7 +27,7 @@
   "homepage": "https://github.com/gammafp/capacitor_plugin_base#readme",
   "dependencies": {
     "@capacitor/android": "^1.1.1",
-    "@capacitor/cli": "^1.1.1",
+    "@capacitor/cli": "^1.5.3",
     "@capacitor/core": "^1.1.1",
     "copy-webpack-plugin": "^5.0.3",
     "html-webpack-plugin": "^3.2.0",
